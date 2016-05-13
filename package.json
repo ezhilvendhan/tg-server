@@ -1,0 +1,23 @@
+{
+  "name": "tg-server",
+  "description": "TeselaGen Endpoint",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ezhil Vendhan",
+    "email": "uibuddha@gmail.com",
+    "url": "http://vendhan.io"
+  },
+  "license": "MIT",
+  "main": "server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezhilvendhan/tg-server"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=5.10.1"
+  }
+}

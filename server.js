@@ -1860,6 +1860,10 @@ app.get('/sequences', function (req, res) {
   res.send(_data);
 });
 
+app.get('/', function (req, res) {
+  res.send('Welcome!');
+});
+
 app.listen(process.env.PORT || 3000, function () {
   console.log('Now listening on port ', process.env.PORT || 3000);
 });
